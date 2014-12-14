@@ -30,5 +30,5 @@ TodoApp = React.createClass
       </form>
     </div>
 
-mountNode = $('#mountNode')[0]
+mountNode = $('#tododiv')[0]
 React.render(<TodoApp />, mountNode)
